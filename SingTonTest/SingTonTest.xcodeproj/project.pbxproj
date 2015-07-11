@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E712DA1B1B03280D0048A8A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E712DA1A1B03280D0048A8A4 /* main.m */; };
+		E712DA1E1B03280D0048A8A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E712DA1D1B03280D0048A8A4 /* AppDelegate.m */; };
+		E712DA211B03280D0048A8A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E712DA201B03280D0048A8A4 /* ViewController.m */; };
+		E712DA241B03280D0048A8A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E712DA221B03280D0048A8A4 /* Main.storyboard */; };
+		E712DA261B03280D0048A8A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E712DA251B03280D0048A8A4 /* Images.xcassets */; };
+		E712DA291B03280D0048A8A4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E712DA271B03280D0048A8A4 /* LaunchScreen.xib */; };
+		E712DA351B03280D0048A8A4 /* SingTonTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E712DA341B03280D0048A8A4 /* SingTonTestTests.m */; };
+		E712DA401B0328B70048A8A4 /* Action.m in Sources */ = {isa = PBXBuildFile; fileRef = E712DA3F1B0328B70048A8A4 /* Action.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E712DA2F1B03280D0048A8A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E712DA0D1B03280D0048A8A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E712DA141B03280D0048A8A4;
+			remoteInfo = SingTonTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E712DA151B03280D0048A8A4 /* SingTonTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingTonTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E712DA191B03280D0048A8A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E712DA1A1B03280D0048A8A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E712DA1C1B03280D0048A8A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E712DA1D1B03280D0048A8A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E712DA1F1B03280D0048A8A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E712DA201B03280D0048A8A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E712DA231B03280D0048A8A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E712DA251B03280D0048A8A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E712DA281B03280D0048A8A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E712DA2E1B03280D0048A8A4 /* SingTonTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingTonTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E712DA331B03280D0048A8A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E712DA341B03280D0048A8A4 /* SingTonTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingTonTestTests.m; sourceTree = "<group>"; };
+		E712DA3E1B0328B70048A8A4 /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Action.h; sourceTree = "<group>"; };
+		E712DA3F1B0328B70048A8A4 /* Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Action.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E712DA121B03280D0048A8A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E712DA2B1B03280D0048A8A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E712DA0C1B03280D0048A8A4 = {
+			isa = PBXGroup;
+			children = (
+				E712DA171B03280D0048A8A4 /* SingTonTest */,
+				E712DA311B03280D0048A8A4 /* SingTonTestTests */,
+				E712DA161B03280D0048A8A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E712DA161B03280D0048A8A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E712DA151B03280D0048A8A4 /* SingTonTest.app */,
+				E712DA2E1B03280D0048A8A4 /* SingTonTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E712DA171B03280D0048A8A4 /* SingTonTest */ = {
+			isa = PBXGroup;
+			children = (
+				E712DA1C1B03280D0048A8A4 /* AppDelegate.h */,
+				E712DA1D1B03280D0048A8A4 /* AppDelegate.m */,
+				E712DA1F1B03280D0048A8A4 /* ViewController.h */,
+				E712DA201B03280D0048A8A4 /* ViewController.m */,
+				E712DA221B03280D0048A8A4 /* Main.storyboard */,
+				E712DA251B03280D0048A8A4 /* Images.xcassets */,
+				E712DA271B03280D0048A8A4 /* LaunchScreen.xib */,
+				E712DA181B03280D0048A8A4 /* Supporting Files */,
+				E712DA3E1B0328B70048A8A4 /* Action.h */,
+				E712DA3F1B0328B70048A8A4 /* Action.m */,
+			);
+			path = SingTonTest;
+			sourceTree = "<group>";
+		};
+		E712DA181B03280D0048A8A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E712DA191B03280D0048A8A4 /* Info.plist */,
+				E712DA1A1B03280D0048A8A4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E712DA311B03280D0048A8A4 /* SingTonTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				E712DA341B03280D0048A8A4 /* SingTonTestTests.m */,
+				E712DA321B03280D0048A8A4 /* Supporting Files */,
+			);
+			path = SingTonTestTests;
+			sourceTree = "<group>";
+		};
+		E712DA321B03280D0048A8A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E712DA331B03280D0048A8A4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E712DA141B03280D0048A8A4 /* SingTonTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E712DA381B03280D0048A8A4 /* Build configuration list for PBXNativeTarget "SingTonTest" */;
+			buildPhases = (
+				E712DA111B03280D0048A8A4 /* Sources */,
+				E712DA121B03280D0048A8A4 /* Frameworks */,
+				E712DA131B03280D0048A8A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SingTonTest;
+			productName = SingTonTest;
+			productReference = E712DA151B03280D0048A8A4 /* SingTonTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E712DA2D1B03280D0048A8A4 /* SingTonTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E712DA3B1B03280D0048A8A4 /* Build configuration list for PBXNativeTarget "SingTonTestTests" */;
+			buildPhases = (
+				E712DA2A1B03280D0048A8A4 /* Sources */,
+				E712DA2B1B03280D0048A8A4 /* Frameworks */,
+				E712DA2C1B03280D0048A8A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E712DA301B03280D0048A8A4 /* PBXTargetDependency */,
+			);
+			name = SingTonTestTests;
+			productName = SingTonTestTests;
+			productReference = E712DA2E1B03280D0048A8A4 /* SingTonTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E712DA0D1B03280D0048A8A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Peter Lee";
+				TargetAttributes = {
+					E712DA141B03280D0048A8A4 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					E712DA2D1B03280D0048A8A4 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = E712DA141B03280D0048A8A4;
+					};
+				};
+			};
+			buildConfigurationList = E712DA101B03280D0048A8A4 /* Build configuration list for PBXProject "SingTonTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E712DA0C1B03280D0048A8A4;
+			productRefGroup = E712DA161B03280D0048A8A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E712DA141B03280D0048A8A4 /* SingTonTest */,
+				E712DA2D1B03280D0048A8A4 /* SingTonTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E712DA131B03280D0048A8A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E712DA241B03280D0048A8A4 /* Main.storyboard in Resources */,
+				E712DA291B03280D0048A8A4 /* LaunchScreen.xib in Resources */,
+				E712DA261B03280D0048A8A4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E712DA2C1B03280D0048A8A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E712DA111B03280D0048A8A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E712DA211B03280D0048A8A4 /* ViewController.m in Sources */,
+				E712DA401B0328B70048A8A4 /* Action.m in Sources */,
+				E712DA1E1B03280D0048A8A4 /* AppDelegate.m in Sources */,
+				E712DA1B1B03280D0048A8A4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E712DA2A1B03280D0048A8A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E712DA351B03280D0048A8A4 /* SingTonTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E712DA301B03280D0048A8A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E712DA141B03280D0048A8A4 /* SingTonTest */;
+			targetProxy = E712DA2F1B03280D0048A8A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E712DA221B03280D0048A8A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E712DA231B03280D0048A8A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E712DA271B03280D0048A8A4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E712DA281B03280D0048A8A4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E712DA361B03280D0048A8A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E712DA371B03280D0048A8A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E712DA391B03280D0048A8A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SingTonTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E712DA3A1B03280D0048A8A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SingTonTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E712DA3C1B03280D0048A8A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SingTonTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SingTonTest.app/SingTonTest";
+			};
+			name = Debug;
+		};
+		E712DA3D1B03280D0048A8A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SingTonTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SingTonTest.app/SingTonTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E712DA101B03280D0048A8A4 /* Build configuration list for PBXProject "SingTonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E712DA361B03280D0048A8A4 /* Debug */,
+				E712DA371B03280D0048A8A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E712DA381B03280D0048A8A4 /* Build configuration list for PBXNativeTarget "SingTonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E712DA391B03280D0048A8A4 /* Debug */,
+				E712DA3A1B03280D0048A8A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E712DA3B1B03280D0048A8A4 /* Build configuration list for PBXNativeTarget "SingTonTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E712DA3C1B03280D0048A8A4 /* Debug */,
+				E712DA3D1B03280D0048A8A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E712DA0D1B03280D0048A8A4 /* Project object */;
+}
