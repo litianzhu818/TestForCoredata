@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14B25" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Course" representedClassName="Course" syncable="YES">
+        <attribute name="cId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="cSShip" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Student" inverseName="sCShip" inverseEntity="Student" syncable="YES"/>
+    </entity>
+    <entity name="Department" representedClassName="Department" syncable="YES">
+        <attribute name="dpId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dpName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="dsShip" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Student" inverseName="sdShip" inverseEntity="Student" syncable="YES"/>
+    </entity>
+    <entity name="Student" representedClassName="Student" syncable="YES">
+        <attribute name="sId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="sCShip" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Course" inverseName="cSShip" inverseEntity="Course" syncable="YES"/>
+        <relationship name="sdShip" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Department" inverseName="dsShip" inverseEntity="Department" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Department" positionX="-63" positionY="-9" width="128" height="90"/>
+        <element name="Student" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="Course" positionX="-54" positionY="18" width="128" height="90"/>
+    </elements>
+</model>
